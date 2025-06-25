@@ -1,0 +1,98 @@
+/*  Grundlayout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f6f8;
+    color: #333;
+    line-height: 1.5;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header .profilbild {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    border: 3px solid #004e82;
+    object-fit: cover;
+    margin-bottom: 15px;
+}
+
+.header h1 {
+    font-size: 2rem;
+    margin-bottom: 5px;
+}
+
+.header .kontakt a {
+    color: #007acc;
+    text-decoration: none;
+    margin: 0 8px;
+    font-size: 0.95rem;
+}
+
+.header .kontakt a:hover {
+    text-decoration: underline;
+}
+
+/* Sektionen*/
+.section {
+    margin-bottom: 20px;
+}
+
+.section h2 {
+    font-size: 1.25rem;
+    color: #005a9e;
+    border-bottom: 2px solid #005a9e;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+/* Listeneinträge */
+.section ul {
+    list-style: none;
+}
+
+.section ul li {
+    margin-bottom: 14px;
+}
+
+.section ul li h3 {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 4px;
+}
+
+.section ul li p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-left: 12px;
+}
+
+/* Skills-Badges */
+.skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skills li {
+    background-color: #007acc;
+    color: #fff;
+    padding: 5px 12px;
+    border-radius: 12px;
+    font-size: 0.85rem;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #777;
+    margin-top: 40px;
+}
