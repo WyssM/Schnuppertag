@@ -15,7 +15,7 @@ body {
     margin-bottom: 30px;
 }
 
-.header .profilbild {
+.profilbild {
     width: 130px;
     height: 130px;
     border-radius: 50%;
@@ -58,17 +58,13 @@ body {
     list-style: none;
 }
 
-.section ul li {
-    margin-bottom: 14px;
-}
-
-.section ul li h3 {
+.section h3 {
     font-size: 1rem;
     color: #333;
     margin-bottom: 4px;
 }
 
-.section ul li p {
+.section p {
     font-size: 0.9rem;
     color: #555;
     margin-left: 12px;
